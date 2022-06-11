@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ font-family: "Roboto","Helvetica","Arial",sans-serif;
+ margin-top: 30px;
+}
+.zuri{
+  line-height: 70px;
+  text-align: center;
+}
+.zuri h1{
+  font-weight: 800;
+  font-size: 40px;
+  /* margin-right: 10px; */
+}
+.zuri .work{
+  font-size: 50px;
+}
+.zuri img{
+  width: 30px;
+  /* display: inline-flex; */
+  padding-top: 10px;
+  /* padding-left: 20px; */
+}
+.zuri .zuri-img{
+  display: flex;
+  justify-content: center;
+  
+}
+.zuri .work1{
+     font-size: 50px;
+     color: #878787;
+}
+.zuri p{
+  line-height: 30px;
+  margin: 15px 0 15px 0;
+  font-weight: 50;
+  font-size: 23px;
+}
+.zuri .we{
+  font-size: 19px;
+}
+.zuri input{
+  height: 60px;
+  width: 400px;
+  border-radius: 5px;
+  padding-left: 24px;
+}
+.zuri button{
+  padding: 0px 100px;
+  margin-left: 25px;
+  background-color: #00b87c;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+::placeholder{
+  font-size: 16px;
+}
+.zuri button:active{
+  border-color: red;
+}
+.laptop{
+  display: flex;
+  justify-content: flex-end;
+}
+.laptop img{
+  z-index: 0.3;
+}
+/* SECTION TWO */
+.zuri-platform{
+  margin-top: -200px;
+  text-align: center;
+  background-color: #F3FFFB;
+  z-index: 1000;
+}
+.zuri-platform h1{
+  padding-top: 160px;
+  font-weight: 800;
+  font-size: 35px;
+}
+/* .zuri-img{
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 60px;
+} */
+.zuri-img img{
+  padding-bottom: 20px;
+}
+.zuri p{
+  margin-top: 10px;
+}
+/* SECTION THREE */
+.web-native{
+  padding-top: 120px;
+  text-align: center;
+}
+.web-native h1{
+      font-weight: 700;
+  font-size: 40px;
+}
+.web-native .only{
+  font-size: 30px;
+}
+.Web3{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+}
+.web-native p{
+  padding-top: 60px;
+  font-size: 21px;
+  line-height: 40px;
+}
+.web-native button{
+     padding: 20px 20px;
+  margin-left: 25px;
+  background-color: #00b87c;
+  border: none;
+  color: white;
+margin-top: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.red{
+  color: red;
+  line-height: 0;
+  margin-top: -65px;
+}
+.blank1 p{
+  padding-left: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18px;
+    flex-wrap: 1;
+}
+
+/* SECTION THREE */
+#source{
+  background-color: #F3FFFB;
+}
+#source h1{
+      font-weight: 800;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+#source p{
+  font-size: 18px;
+}
+#source button{
+  padding: 10px 60px;
+  margin-left: 25px;
+  background-color: #00b87c;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+ margin: 0 auto;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECTION 4 */
+.four{
+  background-color: #00b87c;
+  padding-top: 50px;
+  border-radius: 15px;
+    }
+    .md-6{
+      padding-left: 150px;
+    }
+.four h1{
+         font-weight: 800;
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: white;
+}
+.four input{
+  height: 60px;
+  width: 400px;
+  border-radius: 5px;
+  padding-left: 24px;
+}
+.hel{
+  /* margin-left: 20px; */
+}
+.four button{
+  padding: 6px 18px;
+  margin-left: 25px;
+  border: none;
+  background-color: #eefdf5;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+::placeholder{
+  font-size: 16px;
+}
+/* SECTIONS */
+.icons{
+    text-align: center;
+}
+.icons .bx{
+  font-size: 50px;
+  padding: 20px;
+}
+.icons p{
+  font-size: 25px;
+}
+/* ANOTHER SECTION */
+.small{
+  display: flex;
+}
+.small p{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .zuri input{
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  padding-left: 24px;
+}
+.zuri button{
+  padding: 0px 10px;
+  margin-left: 15px;
+  background-color: #00b87c;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.laptop{
+  display: none;
+}
+.zuri h1{
+  font-weight: 400;
+  font-size: 40px;
+}
+.zuri .work1{
+     font-size: 30px;
+     color: #878787;
+}
+.zuri .work{
+  font-size: 30px;
+}
+.zuri-platform h1{
+  padding-top: 160px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+
+}
+@media only screen and (max-width: 940px) {
+  .zuri-img{
+      display: none ;
+  }
+}
